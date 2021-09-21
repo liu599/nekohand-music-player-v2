@@ -1,3 +1,3 @@
-# Umijs 3.0 Javascript Template
+# nekohand-music-player-v2
 
-Start up for normal project
+[music player](https://apps.ecs32.top)
