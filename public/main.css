@@ -1,0 +1,61 @@
+html {
+  background-color: #000;
+  color: #999;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: #666;
+}
+.aplayer {
+  background: #000 !important;
+  color: #ccc;
+  border: 1px solid #666;
+}
+.aplayer .aplayer-list li.aplayer-list-light {
+  color: #333;
+}
+.aplayer .aplayer-list li:hover {
+  color: #333;
+}
+.aplayer li {
+  border-top: 1px solid #000 !important;
+}
+
+.aplayer.aplayer-withlrc .aplayer-info {
+  height: 150px !important;
+}
+
+.aplayer.aplayer-withlrc .aplayer-pic {
+  height: 140px !important;
+  width: 140px !important;
+}
+
+.aplayer .aplayer-lrc:before, .aplayer .aplayer-lrc:after {
+  display: none !important;
+}
+
+.aplayer.aplayer-withlrc .aplayer-info {
+  margin-left: 152px !important;
+}
+
+.aplayer .aplayer-lrc {
+  height: 50px !important;
+}
+
+.aplayer .aplayer-info .aplayer-music {
+  height: 50px !important;
+}
+
+.aplayer.aplayer-withlist .aplayer-list {
+  display: block;
+  border-top: 1px solid #666;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path {
+  fill: #eee !important;
+}
