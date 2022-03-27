@@ -21,14 +21,14 @@ export default function Player() {
 
 
   const onInit = (control) => {
-    console.log(control, "setControl");
+    // console.log(control, "setControl");
     playerInstance = control;
     if (window) {
       window.playerInstance = control;
     }
   }
   const onPlay = () => {
-    console.log('onPlay');
+    // console.log('onPlay');
   }
   const onLoadStart = () => {
 
@@ -47,7 +47,7 @@ export default function Player() {
   }
 
   const renderAplayer = (data) => {
-    console.log('rendering a new Aplayer', playerInstance);
+    // console.log('rendering a new Aplayer', playerInstance);
     if (loading.effects["player/filterData"]) {
       return <Loading />;
     }
@@ -93,7 +93,7 @@ export default function Player() {
   }, []);
 
   useEffect(() => {
-    console.log('lrc changed');
+    // console.log('lrc changed');
     if (!playerInstance || !playerInstance.list || playerInstance.list.length < 1) {
       return;
     }
@@ -115,7 +115,6 @@ export default function Player() {
     <div className={styles.playerContainer}>
 
       <div style={{maxHeight: 420}}>
-        { player && console.log(player.playerlist.length) }
         { renderAplayer(player.playerlist) }
 
         <button

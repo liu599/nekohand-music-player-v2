@@ -24,6 +24,8 @@ export default {
     "TrySail": "TrySail",
     "Asakuramomo": "麻倉もも",
     "OnishiAguri":"大西亜玖璃",
-    "Claris":"Claris"
+    "Claris":"Claris",
+    "HoyoMix":"HoyoMix",
+    "Inst":"Inst"
   },
 }

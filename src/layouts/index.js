@@ -24,7 +24,7 @@ function BasicLayout(props) {
   return (
     <div className={styles.normal}>
       <div className={styles.footer}>
-        <h4 style={{padding: 8, margin: 0}}>Nekohand Music Player 2.0</h4>
+        <h4 style={{padding: 8, margin: 0}}>Nekohand Music Player 2.1</h4>
       </div>
       <div style={{padding: 8, height: 80}}>
         <p className={styles.container}>
@@ -55,7 +55,7 @@ function BasicLayout(props) {
             Based on <a href="https://github.com/sabrinaluo/react-aplayer" target={"_blank"}>React-APlayer</a>
           </p>
           <p>
-            © 2019-2021 Modified by Nekohand 公式サイト委員會/EC小站 {APP_VERSION}
+            © 2019-2022 Modified by Nekohand 公式サイト委員會/EC小站 {APP_VERSION}
           </p>
         </div>
       </footer>

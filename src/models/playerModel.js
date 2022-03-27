@@ -40,7 +40,7 @@ export default {
       });
     },
     saveCurrentLyric(state, {payload: currentLyric}) {
-      console.log('Get Current Lyric');
+      // console.log('Get Current Lyric');
       return produce(state, draft => {
         draft.currentLyric = currentLyric;
       });

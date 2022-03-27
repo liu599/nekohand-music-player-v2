@@ -19,7 +19,7 @@ const _errorHandler = (error) => {
         // console.log(codeMap[code])
     } else {
         // The request was made but no response was received or error occurs when setting up the request.
-        console.log(error.message);
+        console.error(error.message);
     }
 
 
